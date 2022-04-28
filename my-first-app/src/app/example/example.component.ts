@@ -31,6 +31,10 @@ export class ExampleComponent implements OnInit {
       name: 'Lucia',
       age: 25
     })
+
+    setTimeout(() => {
+      this.color = 'green'
+    }, 2000);
   }
 
   sayHello(): string {
